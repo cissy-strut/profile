@@ -1,0 +1,156 @@
+html {
+  background-color: rgb(0, 0, 0);
+}
+
+body{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: black;
+}
+
+body a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+body a :hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.button{
+  width: 300px;
+  padding: 20px 40px ;
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgb(206, 206, 206);
+}
+
+.button:hover{
+  width: 300px;
+  padding: 20px 40px ;
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(137, 137, 137);
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgb(68, 68, 68);
+}
+
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+}
+
+header{
+  padding: 40px;
+  background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/300607511_483091517155986_5745401690091368111_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=aDtZGeVCwNcAX9cdAdG&_nc_ht=scontent-cdg2-1.xx&oh=00_AfBSj19xtJEu-2H8hUF1P5O1kAOqIl8O2f7DJy53QIfyZg&oe=63664EE7");
+  text-align: center;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+header img{
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgb(137, 137, 137);
+}
+
+.block2text{
+  padding: 50px;
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(205, 205, 205);
+  border-radius: 10px;
+}
+
+
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+}
+
+#lienu {
+  display: inline-block;
+  color: rgb(255, 98, 0);
+}
+#lienu:hover{
+  color: rgb(213, 142, 20);
+}
+
+#photo_list img{
+  width: 200px;
+}
+
+#photo_list {
+  text-align: center;
+  padding-left: 0;
+}
+
+#photo_list li{
+  display: inline-block;
+}
+
+#delir img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+#delir {
+  text-align: center;
+  padding: 0;
+}
+
+.menu{
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(205, 205, 205);
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 100px;
+  text-align: center;
+  overflow: hidden;
+
+
+}
+
+.menu ul li a{
+  color: rgb(0, 0, 0);
+}
+
+.menu ul li a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+#footer li{
+  display:inline-block;
+}
+
+#footer{
+  text-align: center;
+}
+
+#footer img{
+  width: 50px;
+  margin: 10px;
+  border-radius: 10px;
+}
